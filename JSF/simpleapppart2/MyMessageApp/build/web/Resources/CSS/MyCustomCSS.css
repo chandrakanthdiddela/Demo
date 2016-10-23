@@ -1,0 +1,31 @@
+  
+
+ body {
+        background:blueviolet;
+        height: 100%;
+        margin: 0px;
+    }
+    .container {
+        height: 100%;
+        background:purple;
+        margin-right:143px;
+        margin-left:143px;
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .centered{
+         text-align: center;
+    }
+    
+#Messageimg {
+    margin-right:0px;
+    margin-left:150px;
+    width:250px;
+    height:250px;
+}
+
+
+table,tr{
+    border: 1px solid black;
+    
+}

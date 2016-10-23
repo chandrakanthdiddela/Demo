@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Array Sorting</title>
+	<!-- <script type="text/javascript" src="arraySort.js"></script> -->
+</head>
+<body>
+<h3>Names sorted on first name</h3>
+<p id="sortfirstname"></p>
+    <h3>Names sorted on last name</h3>
+<p id="sortlastname"></p>
+   
+<script type="text/javascript">
+    
+var names = ["Lourdes Perez","Dilip Rana","Carlos Vigil","Meenakshisundar Ananthanarayanan","Jewell Harris","Akshar Patel","Joshua Wrightington","Andrea Joseph","John Smith","George Washington","Abraham Lincoln"];
+function makeUL(array) {
+   
+    var list = document.createElement('ul');
+
+    for(var i = 0; i < array.length; i++) {
+    
+        var item = document.createElement('li');     
+        item.appendChild(document.createTextNode(array[i]));   
+        list.appendChild(item);
+    }
+
+    return list;
+}
+    
+function swap(names)
+{
+    var answer= new Array();
+			for(var j in names){
+				var word = names[j];
+				var n = word.indexOf(" ");
+				var firstName = word.substring(0, n);
+				var lastName = word.substring(n+1);
+				answer[j]= lastName +" "+firstName;	
+			}				
+		
+    return answer.sort();
+}
+names.sort();
+// Add the contents of options[0] to #foo:
+document.getElementById('sortfirstname').appendChild(makeUL(names));
+ lastnamesortarray=   swap(names.sort());
+    console.log(lastnamesortarray);
+document.getElementById('sortlastname').appendChild(makeUL(lastnamesortarray));
+</script>
+</body>
+</html>

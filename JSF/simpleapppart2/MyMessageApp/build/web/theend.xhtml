@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title></title>
+        
+    </h:head>
+    <h:body>
+         <ui:composition template="template.xhtml">
+        <ui:define name="title" >The End</ui:define>
+        <ui:define name="content" > 
+               <h:outputLabel value="Thanks! There are "/>
+               <h:outputText value="#{MessageView.numberOfMessages}"/>
+               <h:outputLabel value=" messages!"/>
+               <h:outputLabel value="the last message is :"/>
+               <h:outputText value="#{MessageView.lastMessage}"/>
+               <br/>
+                 <h:outputLabel value="current session count"/>            
+                 <h:outputText value="#{MessageView.sessioncounter()}"/>            
+               <h:form>
+                   
+                 <h:commandButton action="index" value="Home Page" />
+                 <h:commandButton action="thankyou" value="Exit" />
+                 <h:commandLink action="userinfo" value="Userinfo" />
+               </h:form>
+        </ui:define>
+        </ui:composition>  
+
+        
+        
+        
+    </h:body>
+</html>
+

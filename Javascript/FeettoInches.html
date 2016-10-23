@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+         
+        <h1> Welcome to Feet to inches conversion </h1>
+    </head>
+    <body>
+        <div>
+        <strong>Feet</strong>
+        <input type="text" id="Feet"></input>
+        <input type="submit"  onclick="myFunction()"></input>
+   
+    <h1 id="demo"></h1>
+        </div>
+
+<script>
+function myFunction() {
+    var feetvalue= document.getElementById("Feet").value;
+    if(!isNaN(feetvalue))
+        {
+        // console.log(feetvalue);
+        //alert(feetvalue);
+        var realFeet = feetvalue;
+        var feet = Math.floor(realFeet);
+         var inches = Math.round(feetvalue * 12);
+            //1 foot is equal to 12 inches
+            document.getElementById("demo").innerHTML = feetvalue + " feet is equal to " +inches +"inches";
+       //alert(inches);
+        }
+    else{
+        alert("Invalid input please check your input value");
+    }
+}
+</script>
+
+
+    </body>
+    </html>

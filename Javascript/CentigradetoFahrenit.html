@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+         
+        <h1> Welcome to degrees Fahrenheit into degrees Centigrade conversion </h1>
+    </head>
+    <body>
+        <div>
+        <strong>Fahrenheit</strong>
+        <input type="text" id="Fahrenheit"></input>
+        <input type="submit"  onclick="myFunction()"></input>
+     <h1 id="demo"></h1>
+        </div>
+
+<script>
+function myFunction() {
+    var Fahrenheitvalue= document.getElementById("Fahrenheit").value;
+     if(!isNaN(Fahrenheitvalue))
+        {
+    
+     var realFahrenheit = Fahrenheitvalue;
+    var Fahrenheit = Math.floor(realFahrenheit);
+  var Centigrade = (5/9) * (Fahrenheit-32);
+    document.getElementById("demo").innerHTML = realFahrenheit + " Fahrenheit is equal to " +Centigrade +"Centigrade";
+      
+}
+    
+     else{
+        alert("Invalid input please check your input value");
+    }
+    
+    
+    
+   
+}
+</script>
+    </body>
+    </html>

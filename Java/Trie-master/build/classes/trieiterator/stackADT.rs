@@ -1,0 +1,2 @@
+trieiterator.stackADT
+trieiterator.stackNode
