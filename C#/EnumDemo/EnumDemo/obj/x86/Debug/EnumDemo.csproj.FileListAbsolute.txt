@@ -1,0 +1,5 @@
+e:\csharp\EnumDemo\EnumDemo\bin\Debug\EnumDemo.exe
+e:\csharp\EnumDemo\EnumDemo\bin\Debug\EnumDemo.pdb
+e:\csharp\EnumDemo\EnumDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\EnumDemo\EnumDemo\obj\x86\Debug\EnumDemo.exe
+e:\csharp\EnumDemo\EnumDemo\obj\x86\Debug\EnumDemo.pdb

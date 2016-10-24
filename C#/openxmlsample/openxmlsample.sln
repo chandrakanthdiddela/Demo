@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openxmlsample", "openxmlsample\openxmlsample.csproj", "{734EE0C7-3475-49D4-A4E7-7648A5E3C581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{734EE0C7-3475-49D4-A4E7-7648A5E3C581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734EE0C7-3475-49D4-A4E7-7648A5E3C581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734EE0C7-3475-49D4-A4E7-7648A5E3C581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734EE0C7-3475-49D4-A4E7-7648A5E3C581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

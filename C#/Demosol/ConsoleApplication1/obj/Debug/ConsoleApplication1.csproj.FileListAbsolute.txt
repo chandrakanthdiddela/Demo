@@ -1,0 +1,1 @@
+d:\Dotnetpractice\Demosol\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config

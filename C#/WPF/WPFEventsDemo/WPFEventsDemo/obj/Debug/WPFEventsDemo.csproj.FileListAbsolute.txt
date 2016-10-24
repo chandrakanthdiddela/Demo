@@ -1,0 +1,13 @@
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\bin\Debug\WPFEventsDemo.exe.config
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\bin\Debug\WPFEventsDemo.exe
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\bin\Debug\WPFEventsDemo.pdb
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\WPFEventsDemo.csprojResolveAssemblyReference.cache
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\MainWindow.baml
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\MainWindow.g.cs
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\App.g.cs
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\WPFEventsDemo_MarkupCompile.cache
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\WPFEventsDemo.g.resources
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\WPFEventsDemo.Properties.Resources.resources
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\WPFEventsDemo.csproj.GenerateResource.Cache
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\WPFEventsDemo.exe
+d:\Dotnetpractice\WPF\WPFEventsDemo\WPFEventsDemo\obj\Debug\WPFEventsDemo.pdb

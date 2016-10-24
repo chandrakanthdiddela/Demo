@@ -1,0 +1,5 @@
+D:\Dotnetpractice\WPF\MyProjects\XMLParsing\bin\Debug\XMLParsing.exe.config
+D:\Dotnetpractice\WPF\MyProjects\XMLParsing\bin\Debug\XMLParsing.exe
+D:\Dotnetpractice\WPF\MyProjects\XMLParsing\bin\Debug\XMLParsing.pdb
+D:\Dotnetpractice\WPF\MyProjects\XMLParsing\obj\Debug\XMLParsing.exe
+D:\Dotnetpractice\WPF\MyProjects\XMLParsing\obj\Debug\XMLParsing.pdb

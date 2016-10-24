@@ -1,0 +1,5 @@
+e:\csharp\Thisdemo\Thisdemo\bin\Debug\Thisdemo.exe
+e:\csharp\Thisdemo\Thisdemo\bin\Debug\Thisdemo.pdb
+e:\csharp\Thisdemo\Thisdemo\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\Thisdemo\Thisdemo\obj\x86\Debug\Thisdemo.exe
+e:\csharp\Thisdemo\Thisdemo\obj\x86\Debug\Thisdemo.pdb

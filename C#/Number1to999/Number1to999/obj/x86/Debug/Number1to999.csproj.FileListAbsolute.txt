@@ -1,0 +1,5 @@
+e:\csharp\Number1to999\Number1to999\bin\Debug\Number1to999.exe
+e:\csharp\Number1to999\Number1to999\bin\Debug\Number1to999.pdb
+e:\csharp\Number1to999\Number1to999\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\Number1to999\Number1to999\obj\x86\Debug\Number1to999.exe
+e:\csharp\Number1to999\Number1to999\obj\x86\Debug\Number1to999.pdb

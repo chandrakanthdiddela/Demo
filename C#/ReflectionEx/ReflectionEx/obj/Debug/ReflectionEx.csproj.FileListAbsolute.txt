@@ -1,0 +1,5 @@
+d:\Dotnetpractice\ReflectionEx\ReflectionEx\bin\Debug\ReflectionEx.dll
+d:\Dotnetpractice\ReflectionEx\ReflectionEx\bin\Debug\ReflectionEx.pdb
+d:\Dotnetpractice\ReflectionEx\ReflectionEx\obj\Debug\ReflectionEx.csprojResolveAssemblyReference.cache
+d:\Dotnetpractice\ReflectionEx\ReflectionEx\obj\Debug\ReflectionEx.dll
+d:\Dotnetpractice\ReflectionEx\ReflectionEx\obj\Debug\ReflectionEx.pdb

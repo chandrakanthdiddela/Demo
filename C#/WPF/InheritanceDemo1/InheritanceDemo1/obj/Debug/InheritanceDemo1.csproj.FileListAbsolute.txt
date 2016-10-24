@@ -1,0 +1,5 @@
+D:\Dotnetpractice\WPF\InheritanceDemo1\InheritanceDemo1\bin\Debug\InheritanceDemo1.exe.config
+D:\Dotnetpractice\WPF\InheritanceDemo1\InheritanceDemo1\bin\Debug\InheritanceDemo1.exe
+D:\Dotnetpractice\WPF\InheritanceDemo1\InheritanceDemo1\bin\Debug\InheritanceDemo1.pdb
+D:\Dotnetpractice\WPF\InheritanceDemo1\InheritanceDemo1\obj\Debug\InheritanceDemo1.exe
+D:\Dotnetpractice\WPF\InheritanceDemo1\InheritanceDemo1\obj\Debug\InheritanceDemo1.pdb

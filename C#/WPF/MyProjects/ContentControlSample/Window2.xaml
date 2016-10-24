@@ -1,0 +1,19 @@
+﻿<Window x:Class="ContentControlSample.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window2" Height="300" Width="300">
+    <Grid>
+        <StackPanel Name="stackpanel1" Margin="10">
+            <RadioButton Name="RD1" Content="C" GroupName="lang" Margin="10"></RadioButton>
+            <RadioButton Name="RD2" Content="C++" GroupName="lang" Margin="10"></RadioButton>
+            <RadioButton Name="RD3" Content="C#" GroupName="lang1" Margin="10"></RadioButton>
+            <RadioButton Name="RD4" Content="VB" GroupName="lang1" Margin="10"></RadioButton>
+            <RadioButton Name="RD5" Content="Java" GroupName="lang1" Margin="10"></RadioButton>
+            
+            <StackPanel Name="stackpanel2" Orientation="Horizontal" Margin="10">
+                <Button Name="submit" Content="submit" Margin="10" Click="submit_Click" ></Button>
+                <Button Name="Cancel" Content="Cancel" Margin="10" Click="Cancel_Click" ></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

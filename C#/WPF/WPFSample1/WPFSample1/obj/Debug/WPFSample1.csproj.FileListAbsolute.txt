@@ -1,0 +1,16 @@
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\MainWindow.baml
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\MainWindow.g.cs
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\App.g.cs
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\WPFSample1_MarkupCompile.cache
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\WPFSample1.g.resources
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\WPFSample1.Properties.Resources.resources
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\WPFSample1.csproj.GenerateResource.Cache
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\bin\Debug\WPFSample1.exe.config
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\bin\Debug\WPFSample1.exe
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\bin\Debug\WPFSample1.pdb
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\WPFSample1.exe
+D:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\WPFSample1.pdb
+d:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\Window2.baml
+d:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\Window2.g.cs
+d:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\Window3.baml
+d:\Dotnetpractice\WPF\WPFSample1\WPFSample1\obj\Debug\Window3.g.cs

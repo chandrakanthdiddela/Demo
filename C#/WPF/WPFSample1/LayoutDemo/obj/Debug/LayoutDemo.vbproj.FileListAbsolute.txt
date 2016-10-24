@@ -1,0 +1,14 @@
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\bin\Debug\LayoutDemo.exe.config
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\bin\Debug\LayoutDemo.exe
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\bin\Debug\LayoutDemo.pdb
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\bin\Debug\LayoutDemo.xml
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\MainWindow.baml
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\MainWindow.g.vb
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\Application.g.vb
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\LayoutDemo_MarkupCompile.cache
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\LayoutDemo.g.resources
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\LayoutDemo.Resources.resources
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\LayoutDemo.vbproj.GenerateResource.Cache
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\LayoutDemo.exe
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\LayoutDemo.xml
+d:\Dotnetpractice\WPF\WPFSample1\LayoutDemo\obj\Debug\LayoutDemo.pdb

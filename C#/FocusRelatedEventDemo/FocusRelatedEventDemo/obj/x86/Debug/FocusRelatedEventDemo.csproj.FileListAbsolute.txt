@@ -1,0 +1,9 @@
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\bin\Debug\FocusRelatedEventDemo.exe
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\bin\Debug\FocusRelatedEventDemo.pdb
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\obj\x86\Debug\FocusRelatedEventDemo.Form1.resources
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\obj\x86\Debug\FocusRelatedEventDemo.Properties.Resources.resources
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\obj\x86\Debug\FocusRelatedEventDemo.exe
+e:\csharp\FocusRelatedEventDemo\FocusRelatedEventDemo\obj\x86\Debug\FocusRelatedEventDemo.pdb

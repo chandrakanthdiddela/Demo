@@ -1,0 +1,5 @@
+d:\Dotnetpractice\XMLDEMO2\XMLDEMO2\bin\Debug\XMLDEMO2.exe.config
+d:\Dotnetpractice\XMLDEMO2\XMLDEMO2\bin\Debug\XMLDEMO2.exe
+d:\Dotnetpractice\XMLDEMO2\XMLDEMO2\bin\Debug\XMLDEMO2.pdb
+d:\Dotnetpractice\XMLDEMO2\XMLDEMO2\obj\Debug\XMLDEMO2.exe
+d:\Dotnetpractice\XMLDEMO2\XMLDEMO2\obj\Debug\XMLDEMO2.pdb

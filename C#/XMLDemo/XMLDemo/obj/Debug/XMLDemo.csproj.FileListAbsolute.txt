@@ -1,0 +1,5 @@
+d:\Dotnet\console\XMLDemo\XMLDemo\bin\Debug\XMLDemo.exe.config
+d:\Dotnet\console\XMLDemo\XMLDemo\bin\Debug\XMLDemo.exe
+d:\Dotnet\console\XMLDemo\XMLDemo\bin\Debug\XMLDemo.pdb
+d:\Dotnet\console\XMLDemo\XMLDemo\obj\Debug\XMLDemo.exe
+d:\Dotnet\console\XMLDemo\XMLDemo\obj\Debug\XMLDemo.pdb

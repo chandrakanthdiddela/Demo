@@ -1,0 +1,6 @@
+d:\Dotnetpractice\Datasetexample\Datasetexample\bin\Debug\Datasetexample.exe.config
+d:\Dotnetpractice\Datasetexample\Datasetexample\bin\Debug\Datasetexample.exe
+d:\Dotnetpractice\Datasetexample\Datasetexample\bin\Debug\Datasetexample.pdb
+d:\Dotnetpractice\Datasetexample\Datasetexample\obj\Debug\Datasetexample.exe
+d:\Dotnetpractice\Datasetexample\Datasetexample\obj\Debug\Datasetexample.pdb
+d:\Dotnetpractice\Datasetexample\Datasetexample\obj\Debug\Datasetexample.csprojResolveAssemblyReference.cache

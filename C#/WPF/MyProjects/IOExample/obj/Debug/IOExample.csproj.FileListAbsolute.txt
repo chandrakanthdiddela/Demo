@@ -1,0 +1,5 @@
+D:\Dotnetpractice\WPF\MyProjects\IOExample\bin\Debug\IOExample.exe.config
+D:\Dotnetpractice\WPF\MyProjects\IOExample\bin\Debug\IOExample.exe
+D:\Dotnetpractice\WPF\MyProjects\IOExample\bin\Debug\IOExample.pdb
+D:\Dotnetpractice\WPF\MyProjects\IOExample\obj\Debug\IOExample.exe
+D:\Dotnetpractice\WPF\MyProjects\IOExample\obj\Debug\IOExample.pdb

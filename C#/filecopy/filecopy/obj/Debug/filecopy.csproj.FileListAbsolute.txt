@@ -1,0 +1,5 @@
+d:\Dotnetpractice\filecopy\filecopy\bin\Debug\filecopy.exe.config
+d:\Dotnetpractice\filecopy\filecopy\bin\Debug\filecopy.exe
+d:\Dotnetpractice\filecopy\filecopy\bin\Debug\filecopy.pdb
+d:\Dotnetpractice\filecopy\filecopy\obj\Debug\filecopy.exe
+d:\Dotnetpractice\filecopy\filecopy\obj\Debug\filecopy.pdb

@@ -1,0 +1,5 @@
+e:\csharp\Arraydemo\Arraydemo\bin\Debug\Arraydemo.exe
+e:\csharp\Arraydemo\Arraydemo\bin\Debug\Arraydemo.pdb
+e:\csharp\Arraydemo\Arraydemo\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\Arraydemo\Arraydemo\obj\x86\Debug\Arraydemo.exe
+e:\csharp\Arraydemo\Arraydemo\obj\x86\Debug\Arraydemo.pdb

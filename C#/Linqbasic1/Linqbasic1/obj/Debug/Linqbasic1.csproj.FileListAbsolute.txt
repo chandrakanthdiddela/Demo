@@ -1,0 +1,5 @@
+D:\Dotnetpractice\Linqbasic1\Linqbasic1\bin\Debug\Linqbasic1.exe.config
+D:\Dotnetpractice\Linqbasic1\Linqbasic1\bin\Debug\Linqbasic1.exe
+D:\Dotnetpractice\Linqbasic1\Linqbasic1\bin\Debug\Linqbasic1.pdb
+D:\Dotnetpractice\Linqbasic1\Linqbasic1\obj\Debug\Linqbasic1.exe
+D:\Dotnetpractice\Linqbasic1\Linqbasic1\obj\Debug\Linqbasic1.pdb

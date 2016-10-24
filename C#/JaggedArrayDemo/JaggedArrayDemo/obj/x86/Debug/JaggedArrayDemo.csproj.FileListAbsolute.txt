@@ -1,0 +1,10 @@
+e:\csharp\JaggedArrayDemo\JaggedArrayDemo\bin\Debug\JaggedArrayDemo.exe
+e:\csharp\JaggedArrayDemo\JaggedArrayDemo\bin\Debug\JaggedArrayDemo.pdb
+e:\csharp\JaggedArrayDemo\JaggedArrayDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\JaggedArrayDemo\JaggedArrayDemo\obj\x86\Debug\JaggedArrayDemo.exe
+e:\csharp\JaggedArrayDemo\JaggedArrayDemo\obj\x86\Debug\JaggedArrayDemo.pdb
+D:\UNH\Sample Program Repository\csharp\JaggedArrayDemo\JaggedArrayDemo\obj\x86\Debug\JaggedArrayDemo.exe
+D:\UNH\Sample Program Repository\csharp\JaggedArrayDemo\JaggedArrayDemo\obj\x86\Debug\JaggedArrayDemo.pdb
+D:\UNH\Sample Program Repository\csharp\JaggedArrayDemo\JaggedArrayDemo\bin\Debug\JaggedArrayDemo.exe
+D:\UNH\Sample Program Repository\csharp\JaggedArrayDemo\JaggedArrayDemo\bin\Debug\JaggedArrayDemo.pdb
+D:\UNH\Sample Program Repository\csharp\JaggedArrayDemo\JaggedArrayDemo\obj\x86\Debug\JaggedArrayDemo.csprojResolveAssemblyReference.cache

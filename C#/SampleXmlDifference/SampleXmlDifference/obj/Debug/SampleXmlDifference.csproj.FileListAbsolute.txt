@@ -1,0 +1,6 @@
+D:\Practice\C# Sample\SampleXmlDifference\SampleXmlDifference\bin\Debug\SampleXmlDifference.exe.config
+D:\Practice\C# Sample\SampleXmlDifference\SampleXmlDifference\bin\Debug\SampleXmlDifference.exe
+D:\Practice\C# Sample\SampleXmlDifference\SampleXmlDifference\bin\Debug\SampleXmlDifference.pdb
+D:\Practice\C# Sample\SampleXmlDifference\SampleXmlDifference\obj\Debug\SampleXmlDifference.exe
+D:\Practice\C# Sample\SampleXmlDifference\SampleXmlDifference\obj\Debug\SampleXmlDifference.pdb
+D:\Practice\C# Sample\SampleXmlDifference\SampleXmlDifference\obj\Debug\SampleXmlDifference.csprojResolveAssemblyReference.cache

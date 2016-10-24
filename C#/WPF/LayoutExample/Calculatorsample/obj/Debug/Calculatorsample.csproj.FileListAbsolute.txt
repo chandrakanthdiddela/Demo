@@ -1,0 +1,12 @@
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\bin\Debug\Calculatorsample.exe.config
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\bin\Debug\Calculatorsample.exe
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\bin\Debug\Calculatorsample.pdb
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\MainWindow.baml
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\MainWindow.g.cs
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\App.g.cs
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\Calculatorsample_MarkupCompile.cache
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\Calculatorsample.g.resources
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\Calculatorsample.Properties.Resources.resources
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\Calculatorsample.csproj.GenerateResource.Cache
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\Calculatorsample.exe
+d:\Dotnetpractice\WPF\LayoutExample\Calculatorsample\obj\Debug\Calculatorsample.pdb

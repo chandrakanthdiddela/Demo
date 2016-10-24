@@ -1,0 +1,9 @@
+d:\Dotnetpractice\Collectionexample\Collectionexample\bin\Debug\Collectionexample.exe.config
+d:\Dotnetpractice\Collectionexample\Collectionexample\obj\Debug\Collectionexample.csprojResolveAssemblyReference.cache
+d:\Dotnetpractice\Collectionexample\Collectionexample\bin\Debug\Collectionexample.exe
+d:\Dotnetpractice\Collectionexample\Collectionexample\bin\Debug\Collectionexample.pdb
+d:\Dotnetpractice\Collectionexample\Collectionexample\obj\Debug\Collectionexample.exe
+d:\Dotnetpractice\Collectionexample\Collectionexample\obj\Debug\Collectionexample.pdb
+D:\UNH\Sample Program Repository\Dotnetpractice\Collectionexample\Collectionexample\bin\Debug\Collectionexample.exe.config
+D:\UNH\Sample Program Repository\Dotnetpractice\Collectionexample\Collectionexample\obj\Debug\Collectionexample.exe
+D:\UNH\Sample Program Repository\Dotnetpractice\Collectionexample\Collectionexample\obj\Debug\Collectionexample.pdb

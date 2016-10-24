@@ -1,0 +1,22 @@
+﻿<Window x:Class="StylesDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Window.Resources>
+        
+        <Style x:Key="style1" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Verdana"></Setter>
+            
+            <Setter Property="FontSize" Value="20"></Setter>
+        </Style>
+        
+        <Style x:Key="gridstyle" TargetType="Grid">
+            
+            <Setter Property="Background" Value="Azure"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Style="{StaticResource gridstyle}">
+        <TextBlock Style="{StaticResource style1}"> text1 block one</TextBlock>
+    </Grid>
+</Window>

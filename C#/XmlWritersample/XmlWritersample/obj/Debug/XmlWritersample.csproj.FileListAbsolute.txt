@@ -1,0 +1,5 @@
+D:\Practice\C# Sample\XmlWritersample\XmlWritersample\bin\Debug\XmlWritersample.exe.config
+D:\Practice\C# Sample\XmlWritersample\XmlWritersample\bin\Debug\XmlWritersample.exe
+D:\Practice\C# Sample\XmlWritersample\XmlWritersample\bin\Debug\XmlWritersample.pdb
+D:\Practice\C# Sample\XmlWritersample\XmlWritersample\obj\Debug\XmlWritersample.exe
+D:\Practice\C# Sample\XmlWritersample\XmlWritersample\obj\Debug\XmlWritersample.pdb

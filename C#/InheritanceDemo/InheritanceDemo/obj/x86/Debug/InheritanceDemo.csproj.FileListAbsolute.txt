@@ -1,0 +1,5 @@
+e:\csharp\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe
+e:\csharp\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.pdb
+e:\csharp\InheritanceDemo\InheritanceDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\InheritanceDemo\InheritanceDemo\obj\x86\Debug\InheritanceDemo.exe
+e:\csharp\InheritanceDemo\InheritanceDemo\obj\x86\Debug\InheritanceDemo.pdb

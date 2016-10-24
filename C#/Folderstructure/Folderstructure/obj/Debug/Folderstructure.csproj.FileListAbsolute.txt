@@ -1,0 +1,18 @@
+d:\Dotnetpractice\Folderstructure\Folderstructure\bin\Debug\Folderstructure.exe.config
+d:\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.csprojResolveAssemblyReference.cache
+d:\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.Form1.resources
+d:\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.Properties.Resources.resources
+d:\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.csproj.GenerateResource.Cache
+d:\Dotnetpractice\Folderstructure\Folderstructure\bin\Debug\Folderstructure.exe
+d:\Dotnetpractice\Folderstructure\Folderstructure\bin\Debug\Folderstructure.pdb
+d:\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.exe
+d:\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.pdb
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\bin\Debug\Folderstructure.exe.config
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.exe
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.pdb
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\bin\Debug\Folderstructure.exe
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\bin\Debug\Folderstructure.pdb
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.csprojResolveAssemblyReference.cache
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.Form1.resources
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.Properties.Resources.resources
+D:\UNH\Sample Program Repository\Dotnetpractice\Folderstructure\Folderstructure\obj\Debug\Folderstructure.csproj.GenerateResource.Cache

@@ -1,0 +1,25 @@
+﻿<Window x:Class="ContentControlSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        
+        <!--<Button Margin="20"> 
+        <StackPanel Margin="20">
+            <TextBlock Margin="5">image and text button </TextBlock>
+        </StackPanel>
+        </Button>-->
+
+        <!--<Button  Height="50" HorizontalAlignment="Left"> absolutely padding</Button>
+        <Button Padding="10" Height="50" HorizontalAlignment="Right">absolutely padding</Button>-->
+
+        <!--Button>
+            <Grid Margin="100">
+                <Polygon Points="100,25,125,0,200,25,125,50" Fill="Yellow"></Polygon>
+                <Polygon Points="100,25,75,0,0,25,75,50" Fill="Blue"></Polygon>
+            </Grid>
+        </Button>-->
+        
+       
+    </Grid>
+</Window>

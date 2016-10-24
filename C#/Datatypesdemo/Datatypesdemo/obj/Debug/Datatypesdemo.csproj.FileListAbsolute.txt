@@ -1,0 +1,6 @@
+d:\Dotnetpractice\Datatypesdemo\Datatypesdemo\bin\Debug\Datatypesdemo.exe
+d:\Dotnetpractice\Datatypesdemo\Datatypesdemo\bin\Debug\Datatypesdemo.exe.config
+d:\Dotnetpractice\Datatypesdemo\Datatypesdemo\obj\Debug\Datatypesdemo.exe
+d:\Dotnetpractice\Datatypesdemo\Datatypesdemo\obj\Debug\Datatypesdemo.pdb
+d:\Dotnetpractice\Datatypesdemo\Datatypesdemo\bin\Debug\Datatypesdemo.pdb
+d:\Dotnetpractice\Datatypesdemo\Datatypesdemo\obj\Debug\Datatypesdemo.csprojResolveAssemblyReference.cache

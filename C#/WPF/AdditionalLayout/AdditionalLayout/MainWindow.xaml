@@ -1,0 +1,25 @@
+﻿<Window x:Class="AdditionalLayout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible">
+            <StackPanel>
+                <TextBlock TextWrapping="Wrap">
+                    <Bold>this is example of scrollviewer</Bold>
+                    <LineBreak></LineBreak>
+                        </TextBlock>
+                
+                <TextBlock>
+                    <Italic> this is italic font</Italic>
+                      <LineBreak></LineBreak>
+                </TextBlock>
+
+                <TextBlock>
+              this is underline text
+                    <LineBreak></LineBreak>
+                </TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

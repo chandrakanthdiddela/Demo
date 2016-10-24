@@ -1,0 +1,13 @@
+﻿<Window x:Class="PopUpcontrolSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid >
+        <ToggleButton IsChecked="{Binding ElementName=pop, Path=isopen}"></ToggleButton>
+        <Popup Name="pop" Placement="Bottom" PopupAnimation="Slide" VerticalOffset="100" HorizontalOffset="100"></Popup>
+        <StackPanel>
+            <TextBox Name="textbox1" Background="blue" Foreground="Yellow">this is popup element</TextBox>
+            <Button Click="Button_Click"> close this popup</Button>
+        </StackPanel>
+    </Grid>
+</Window>

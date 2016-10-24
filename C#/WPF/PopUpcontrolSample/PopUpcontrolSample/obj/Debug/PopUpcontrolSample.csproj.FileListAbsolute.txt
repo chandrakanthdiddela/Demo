@@ -1,0 +1,15 @@
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\bin\Debug\PopUpcontrolSample.exe.config
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\bin\Debug\PopUpcontrolSample.exe
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\bin\Debug\PopUpcontrolSample.pdb
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\PopUpcontrolSample.csprojResolveAssemblyReference.cache
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\MainWindow.baml
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\MainWindow.g.cs
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\App.g.cs
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\PopUpcontrolSample_MarkupCompile.cache
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\PopUpcontrolSample.g.resources
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\PopUpcontrolSample.Properties.Resources.resources
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\PopUpcontrolSample.csproj.GenerateResource.Cache
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\PopUpcontrolSample.exe
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\PopUpcontrolSample.pdb
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\Transformationsample.baml
+d:\Dotnetpractice\WPF\PopUpcontrolSample\PopUpcontrolSample\obj\Debug\Transformationsample.g.cs

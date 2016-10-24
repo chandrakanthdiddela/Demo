@@ -1,0 +1,4 @@
+d:\Dotnetpractice\Filedemo\Filedemo\bin\Debug\Filedemo.exe
+d:\Dotnetpractice\Filedemo\Filedemo\bin\Debug\Filedemo.exe.config
+d:\Dotnetpractice\Filedemo\Filedemo\obj\Debug\Filedemo.exe
+d:\Dotnetpractice\Filedemo\Filedemo\obj\Debug\Filedemo.pdb

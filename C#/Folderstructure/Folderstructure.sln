@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Folderstructure", "Folderstructure\Folderstructure.csproj", "{C31061A7-FAF0-4165-8AF2-3AC822DFB3EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C31061A7-FAF0-4165-8AF2-3AC822DFB3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31061A7-FAF0-4165-8AF2-3AC822DFB3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31061A7-FAF0-4165-8AF2-3AC822DFB3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31061A7-FAF0-4165-8AF2-3AC822DFB3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

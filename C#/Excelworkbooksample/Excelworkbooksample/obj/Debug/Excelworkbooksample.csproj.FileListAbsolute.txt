@@ -1,0 +1,2 @@
+D:\Practice\C# Sample\Excelworkbooksample\Excelworkbooksample\bin\Debug\Excelworkbooksample.exe.config
+D:\Practice\C# Sample\Excelworkbooksample\Excelworkbooksample\obj\Debug\Excelworkbooksample.csprojResolveAssemblyReference.cache

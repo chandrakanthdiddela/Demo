@@ -1,0 +1,9 @@
+e:\csharp\CallByvalueRef\CallByvalueRef\bin\Debug\CallByvalueRef.exe
+e:\csharp\CallByvalueRef\CallByvalueRef\bin\Debug\CallByvalueRef.pdb
+e:\csharp\CallByvalueRef\CallByvalueRef\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\CallByvalueRef\CallByvalueRef\obj\x86\Debug\CallByvalueRef.Form1.resources
+e:\csharp\CallByvalueRef\CallByvalueRef\obj\x86\Debug\CallByvalueRef.Properties.Resources.resources
+e:\csharp\CallByvalueRef\CallByvalueRef\obj\x86\Debug\GenerateResource.read.1.tlog
+e:\csharp\CallByvalueRef\CallByvalueRef\obj\x86\Debug\GenerateResource.write.1.tlog
+e:\csharp\CallByvalueRef\CallByvalueRef\obj\x86\Debug\CallByvalueRef.exe
+e:\csharp\CallByvalueRef\CallByvalueRef\obj\x86\Debug\CallByvalueRef.pdb

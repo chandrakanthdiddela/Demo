@@ -1,0 +1,6 @@
+d:\Dotnetpractice\ParallelDemo\ParallelDemo\bin\Debug\ParallelDemo.exe.config
+d:\Dotnetpractice\ParallelDemo\ParallelDemo\obj\Debug\ParallelDemo.csprojResolveAssemblyReference.cache
+d:\Dotnetpractice\ParallelDemo\ParallelDemo\bin\Debug\ParallelDemo.exe
+d:\Dotnetpractice\ParallelDemo\ParallelDemo\bin\Debug\ParallelDemo.pdb
+d:\Dotnetpractice\ParallelDemo\ParallelDemo\obj\Debug\ParallelDemo.exe
+d:\Dotnetpractice\ParallelDemo\ParallelDemo\obj\Debug\ParallelDemo.pdb

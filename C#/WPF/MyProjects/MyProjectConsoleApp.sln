@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo1", "..\InheritanceDemo1\InheritanceDemo1\InheritanceDemo1.csproj", "{479A6F77-E09E-405E-8586-C8CB5FD81A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertDemo", "..\..\Linqbasic1\Linqbasic1\PropertDemo.csproj", "{360A7536-2D32-47D3-A454-50DC3AFC6A58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{479A6F77-E09E-405E-8586-C8CB5FD81A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479A6F77-E09E-405E-8586-C8CB5FD81A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479A6F77-E09E-405E-8586-C8CB5FD81A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479A6F77-E09E-405E-8586-C8CB5FD81A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360A7536-2D32-47D3-A454-50DC3AFC6A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360A7536-2D32-47D3-A454-50DC3AFC6A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360A7536-2D32-47D3-A454-50DC3AFC6A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360A7536-2D32-47D3-A454-50DC3AFC6A58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

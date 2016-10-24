@@ -1,0 +1,5 @@
+e:\csharp\multidimensionarrays\multidimensionarrays\bin\Debug\multidimensionarrays.exe
+e:\csharp\multidimensionarrays\multidimensionarrays\bin\Debug\multidimensionarrays.pdb
+e:\csharp\multidimensionarrays\multidimensionarrays\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\csharp\multidimensionarrays\multidimensionarrays\obj\x86\Debug\multidimensionarrays.exe
+e:\csharp\multidimensionarrays\multidimensionarrays\obj\x86\Debug\multidimensionarrays.pdb
