@@ -1,0 +1,68 @@
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="site.css">
+
+</head>
+  
+<body>
+
+	<div id="left">
+<h2>This is a heading</h2>
+		
+        <p class="para2">This is FIRST para </p>
+        <p>This is Second para </p>
+	</div>
+	
+	<div id="center">
+		
+		<ul>
+    <li>Bobcats</li>
+    <li>Wildcats</li>
+ 
+  </ul>
+	</div>
+
+	<div id="right">
+		
+		<p>This area will contain the <b>right content</b> area.</p>
+
+                <img src="virat1.jpeg">
+		
+	</div>
+
+	<div id="test">
+        <button> Hit button to change something </button>
+        </div>
+
+
+ <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+ <script>
+          $(document).ready(function() {
+          
+		  $("#right").hover(function() {
+		   $("img").show();
+//$("img").attr("src","virat2.jpeg");
+          // $("div").css({'background-color':'yellow'});
+
+                },function()
+				{
+				$("img").hide();
+				// $("div").css({'background-color':'purple'});
+				}
+				
+				);
+            });
+ 
+ 
+ </script> 
+</body>
+</html>

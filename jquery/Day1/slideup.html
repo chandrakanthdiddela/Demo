@@ -1,0 +1,83 @@
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="site.css">
+
+</head>
+  
+<body>
+
+	<div id="left">
+<h2>This is a heading</h2>
+		
+        <p class="para2">This is FIRST para </p>
+        <p>This is Second para </p>
+		<label>pick up a travel date</label>
+		<input type="text" id="datetimepicker"/>
+	</div>
+	
+	<div id="center">
+		
+		<ul>
+    <li>Bobcats</li>
+    <li>Wildcats</li>
+ 
+  </ul>
+	</div>
+
+	<div id="right">
+		
+		<p>This area will contain the <b>right content</b> area.</p>
+
+                <img src="virat1.jpeg">
+		
+	</div>
+
+	<div id="test">
+        <button id="btn1"> slide up  </button>
+		<button id="btn2"> slide down</button>
+		<button id="btn3"> slide down</button>
+        </div>
+
+
+ <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">
+  </script>
+  
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+ <script>
+          $(document).ready(function() {
+          
+		  $("#btn1").click(function()
+		  {
+		  $("#right").slideUp();
+		  });
+		  
+		 $("#btn2").click(function() {
+ 
+                  $("#right").slideDown();
+                });
+				
+				$("#btn3").click(function() {
+ 
+                 $("#right").slideToggle();
+                });
+				
+				$("#datetimepicker").datepicker({changeYear:true});
+		  
+		  });
+ 
+ 
+ </script> 
+</body>
+</html>
