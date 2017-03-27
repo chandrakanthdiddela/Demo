@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+</head>
+
+    <body>
+        <div>
+            username:<input type="text" id="txtusername" />
+            password:<input type="text" id="txtpassword"/>
+            <input id="btn" type="button" value="Get All Employees" />
+            <input id="btnClear" type="button" value="Clear" />
+            <ul id="ulEmployees" />
+        </div>
+    
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+
+                var username = "female";
+               
+                    //$('#txtusername');
+                console.log(username);
+                var userpassword = "female";
+                    //$('#txtpassword');
+                console.log(userpassword);
+                console.log(btoa(username + ':' + userpassword));
+                var ulEmployees = $('#ulEmployees');
+                $('#btn').click(function () {
+                    $.ajax({
+                        type: 'GET',
+                        url: "api/employee/",
+                        dataType: 'json',
+                        headers:{
+                            'Authorization': 'Basic ' + btoa(username +':'+ userpassword)
+                        },
+                        success: function (data) {
+                            ulEmployees.empty();
+                            $.each(data, function (index, val) {
+                                var fullName = val.FirstName + ' ' + val.LastName;
+                                ulEmployees.append('<li>' + fullName + ' (' + val.Gender + ')</li>')
+                            });
+                        },
+                        complete:function(jqXHR)
+                        {
+                            if (jqXHR.status == '401') {
+                                ulEmployees.empty();
+                                ulEmployees.append('<li style="color:red">'
+                                    + jqXHR.status + ' : ' + jqXHR.statusText + '</li>')
+                            }
+                        }
+
+
+
+                    });
+
+
+
+                });
+                $('#btnClear').click(function () {
+                    ulEmployees.empty();
+                });
+            });
+
+        </script>
+</body>
+</html>

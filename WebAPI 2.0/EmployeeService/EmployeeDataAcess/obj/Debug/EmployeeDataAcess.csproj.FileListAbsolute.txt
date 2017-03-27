@@ -1,0 +1,9 @@
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\bin\Debug\EmployeeDataAcess.dll.config
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\bin\Debug\EmployeeDataAcess.dll
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\bin\Debug\EmployeeDataAcess.pdb
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\bin\Debug\EntityFramework.dll
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\bin\Debug\EntityFramework.xml
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\obj\Debug\EmployeeDataAcess.dll
+E:\Chandu\practice\WebAPI Samples\EmployeeService\EmployeeDataAcess\obj\Debug\EmployeeDataAcess.pdb
