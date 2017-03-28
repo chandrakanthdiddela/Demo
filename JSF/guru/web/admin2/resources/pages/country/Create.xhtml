@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+    
+    </h:head>
+    
+    <h:body>
+    <ui:composition template="/admintemplate.xhtml">
+        <ui:define name="header">
+        </ui:define>
+        
+        <ui:define name="leftmenu">
+        </ui:define>
+        
+        <ui:define name="content">    
+        <h:form id="CountryCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2">
+                        <p:outputLabel value="#{bundle.CreateCountryLabel_countryID}" for="countryID" />
+                        <p:inputText id="countryID" value="#{countryController.selected.countryID}" title="#{bundle.CreateCountryTitle_countryID}" required="true" requiredMessage="#{bundle.CreateCountryRequiredMessage_countryID}"/>
+                        <p:outputLabel value="#{bundle.CreateCountryLabel_countryName}" for="countryName" />
+                        <p:inputText id="countryName" value="#{countryController.selected.countryName}" title="#{bundle.CreateCountryTitle_countryName}" required="true" requiredMessage="#{bundle.CreateCountryRequiredMessage_countryName}"/>
+                        <p:outputLabel value="#{bundle.CreateCountryLabel_countrycode}" for="countrycode" />
+                        <p:inputText id="countrycode" value="#{countryController.selected.countrycode}" title="#{bundle.CreateCountryTitle_countrycode}" required="true" requiredMessage="#{bundle.CreateCountryRequiredMessage_countrycode}"/>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{countryController.create}" value="#{bundle.Save}"  oncomplete="handleSubmit(args,'CountryCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="CountryCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>        
+        </ui:define>
+        
+        <ui:define name="footer"/>
+    </ui:composition>
+   </h:body>
+</html>

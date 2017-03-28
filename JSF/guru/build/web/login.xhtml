@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    
+    <h:body>
+      <ui:composition template="/template2.xhtml">
+          
+        <ui:define name="title">Home </ui:define>
+           <ui:define name="nav">  <ui:include src="nav1.xhtml"></ui:include> </ui:define>
+      <ui:define name="content"> 
+          
+            <h:form id="loginForm">
+ 			<h:panelGrid columns="2" border="0">
+				<p:panel header="Please Sign In" id="loginPanel">
+					<p:messages id="messages" showDetail="true" autoUpdate="true" />
+					<p:panelGrid columns="2" style="border: none" 
+					             columnClasses="no-border,no-border">
+						<p:outputLabel value="Username" for="username" />
+                                                <p:inputText id="username" label="Username" value="#{usersController.selected.userName}" />
+						<p:outputLabel value="Password" for="password" />
+                                                <p:password id="password" label="Password" value="#{usersController.selected.password}" />
+						<h:outputText value="" />
+<!--						<p:commandLink value="Forgot your password?" />-->
+                                                 <h:link outcome="forgotpassword.xhtml"> Forgot your password?</h:link>
+						<h:outputText value="" />
+                                               
+						<p:commandButton id="loginButton" value="Login" 
+                                                                 action="#{usersController.login}" update="loginPanel" />
+						
+                                                
+					</p:panelGrid>
+					<p:focus for="username"/>
+<!--					<p:defaultCommand target="loginButton" />-->
+				
+                            
+                         
+         
+				<ul>
+					<li>
+						Find out what's happening
+					</li>
+					<li>
+						Rate and review shows
+					</li>
+					
+					<li>
+                                            <h:link outcome="users/Create.xhtml"> join</h:link>
+                                        </li>
+                                  
+                                </ul>
+</p:panel>
+			</h:panelGrid>
+    
+
+	
+                            
+                 <!-- =========== Register ============ --> 
+          </h:form>
+         
+        
+        </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

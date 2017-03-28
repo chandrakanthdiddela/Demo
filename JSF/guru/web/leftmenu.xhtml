@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+        <h:form>
+            <p:growl autoUpdate="true"/>
+
+            <p:panelMenu style="width:100%">
+                <p:submenu label="Country">
+                    <p:menuitem value="Create" icon="ui-icon-disk" action="countryCreate.xhtml"/>
+                    <p:menuitem value="List" icon="ui-icon-disk" action="countryList.xhtml"/>
+                    <!-- <p:menuitem value="Update"   icon="ui-icon-arrowrefresh-1-w" />-->
+                </p:submenu>
+                <p:submenu label="Event">
+                    <p:menuitem value="Create" icon="ui-icon-disk" action="eventCreate.xhtml"/>
+                    <p:menuitem value="List" icon="ui-icon-disk" action="eventList.xhtml"/>
+                    <!-- <p:menuitem value="Delete"  ajax="false" icon="ui-icon-close"/>-->
+                </p:submenu>
+                <p:submenu label="Event Attendence">
+                    <p:menuitem value="Create" icon="ui-icon-disk" action="eventattendanceCreate.xhtml"/>
+                    <p:menuitem value="List" icon="ui-icon-disk" action="eventattendanceList.xhtml"/>
+                    <!-- <p:menuitem value="Update"   icon="ui-icon-arrowrefresh-1-w" />-->
+                </p:submenu>
+                 <p:submenu label="Review">
+                    <p:menuitem value="Create" icon="ui-icon-disk" action="reviewCreate.xhtml"/>
+                    <p:menuitem value="List" icon="ui-icon-disk" action="reviewList.xhtml"/>
+                    <!-- <p:menuitem value="Update"   icon="ui-icon-arrowrefresh-1-w" />-->
+                </p:submenu>
+                 <p:submenu label="State">
+                    <p:menuitem value="Create" icon="ui-icon-disk" action="stateCreate.xhtml"/>
+                    <p:menuitem value="List" icon="ui-icon-disk" action="stateList.xhtml"/>
+                    <!-- <p:menuitem value="Update"   icon="ui-icon-arrowrefresh-1-w" />-->
+                </p:submenu>
+                <p:submenu label="City">
+                    <p:menuitem value="Create" icon="ui-icon-disk" action="cityCreate.xhtml"/>
+                    <p:menuitem value="List" icon="ui-icon-disk" action="cityList.xhtml"/>
+                    <!-- <p:menuitem value="Update"   icon="ui-icon-arrowrefresh-1-w" />-->
+                </p:submenu>
+                <p:submenu label="Users">
+                    <p:menuitem value="Create" icon="ui-icon-disk" action="usersCreate.xhtml"/>
+                    <p:menuitem value="List" icon="ui-icon-disk" action="usersList.xhtml"/>
+                    <!-- <p:menuitem value="Update"   icon="ui-icon-arrowrefresh-1-w" />-->
+                </p:submenu>
+                <p:submenu label="Venue">
+                    <p:menuitem value="Create" icon="ui-icon-disk" action="venueCreate.xhtml"/>
+                    <p:menuitem value="List" icon="ui-icon-disk" action="venueList.xhtml"/>
+                    <!-- <p:menuitem value="Update"   icon="ui-icon-arrowrefresh-1-w" />-->
+                </p:submenu>
+            </p:panelMenu>
+        </h:form>
+    </ui:composition>
+</html>

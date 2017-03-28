@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition template="/admintemplate.xhtml">
+        <ui:define name="header">
+        </ui:define>
+        
+        <ui:define name="leftmenu">hello
+        </ui:define>
+        
+        <ui:define name="content">
+        <h:form id="UsersEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{usersController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditUsersLabel_userid}" for="userid" />
+                        <p:inputText id="userid" value="#{usersController.selected.userid}" title="#{bundle.EditUsersTitle_userid}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_userid}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_lastName}" for="lastName" />
+                        <p:inputText id="lastName" value="#{usersController.selected.lastName}" title="#{bundle.EditUsersTitle_lastName}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_lastName}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_firstName}" for="firstName" />
+                        <p:inputText id="firstName" value="#{usersController.selected.firstName}" title="#{bundle.EditUsersTitle_firstName}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_firstName}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_gender}" for="gender" />
+                        <p:inputText id="gender" value="#{usersController.selected.gender}" title="#{bundle.EditUsersTitle_gender}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_gender}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_userName}" for="userName" />
+                        <p:inputText id="userName" value="#{usersController.selected.userName}" title="#{bundle.EditUsersTitle_userName}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_userName}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_password}" for="password" />
+                        <p:inputText id="password" value="#{usersController.selected.password}" title="#{bundle.EditUsersTitle_password}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_password}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_userType}" for="userType" />
+                        <p:inputText id="userType" value="#{usersController.selected.userType}" title="#{bundle.EditUsersTitle_userType}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_userType}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_email}" for="email" />
+                        <p:inputText id="email" value="#{usersController.selected.email}" title="#{bundle.EditUsersTitle_email}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_email}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_birthDate}" for="birthDate" />
+                        <p:calendar id="birthDate" pattern="MM/dd/yyyy" value="#{usersController.selected.birthDate}" title="#{bundle.EditUsersTitle_birthDate}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_birthDate}" showOn="button"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_phoneNumber}" for="phoneNumber" />
+                        <p:inputText id="phoneNumber" value="#{usersController.selected.phoneNumber}" title="#{bundle.EditUsersTitle_phoneNumber}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_phoneNumber}"/>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_city}" for="city" />
+                        <p:selectOneMenu id="city" value="#{usersController.selected.city}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_city}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{cityController.itemsAvailableSelectOne}"
+                                           var="cityItem"
+                                           itemValue="#{cityItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_country}" for="country" />
+                        <p:selectOneMenu id="country" value="#{usersController.selected.country}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_country}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{countryController.itemsAvailableSelectOne}"
+                                           var="countryItem"
+                                           itemValue="#{countryItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.EditUsersLabel_state}" for="state" />
+                        <p:selectOneMenu id="state" value="#{usersController.selected.state}" required="true" requiredMessage="#{bundle.EditUsersRequiredMessage_state}">
+                            <f:selectItem itemLabel="#{bundle.SelectOneMessage}"/>
+                            <f:selectItems value="#{stateController.itemsAvailableSelectOne}"
+                                           var="stateItem"
+                                           itemValue="#{stateItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{usersController.update}" value="#{bundle.Save}" />
+                    <p:commandButton value="#{bundle.Cancel}" />
+                </h:panelGroup>
+            </h:form>
+        </ui:define>
+
+    </ui:composition>
+</html>

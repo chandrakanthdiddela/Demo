@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition template="listtemp.xhtml">
+
+        <ui:define name="title" >List Events</ui:define>
+  <ui:define name="nav">  <ui:include src="nav2.xhtml"></ui:include> </ui:define>
+        
+        <ui:define name="body">
+            <h:form id="EventListForm">
+                <p:panel >
+                    <p:dataTable id="datalist" value="#{eventController.items}" var="item"
+                                 selectionMode="single" selection="#{eventController.selected}"
+                                 paginator="true"
+                                 rowKey="#{item.eventID}"
+                                 rows="10"
+                                 rowsPerPageTemplate="10,20,30,40,50"
+                                  widgetVar="venueTable"
+                                  filteredValue="#{dtFilterViewEvent.filteredvenues}"
+                                 >
+             <f:facet name="header">
+            <p:outputPanel>
+                <h:outputText value="Search all fields:" />
+                <p:inputText id="globalFilter" onkeyup="PF('venueTable').filter()" style="width:150px" placeholder="Enter keyword"/>
+            </p:outputPanel>
+             </f:facet>
+                       
+
+                        <p:column filterBy="#{item.eventID}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListEventTitle_eventID}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.eventID}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.description}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListEventTitle_description}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.description}"/>
+                        </p:column>
+                        <p:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListEventTitle_startDate}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.startDate}">
+                                <f:convertDateTime pattern="MM/dd/yyyy" />
+                            </h:outputText>
+                        </p:column>
+                        <p:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListEventTitle_endDate}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.endDate}">
+                                <f:convertDateTime pattern="MM/dd/yyyy" />
+                            </h:outputText>
+                        </p:column>
+                        <p:column filterBy="#{item.eventType}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListEventTitle_eventType}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.eventType}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.createdBy.userName}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListEventTitle_createdBy}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.createdBy.userName}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.venue.name}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListEventTitle_venue}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.venue.name}"/>
+                        </p:column>
+                        
+                       
+                    </p:dataTable>
+                </p:panel>
+            </h:form>
+
+           
+        </ui:define>
+    </ui:composition>
+
+</html>

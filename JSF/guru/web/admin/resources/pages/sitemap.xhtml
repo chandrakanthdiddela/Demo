@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        Hello from Facelets
+    </h:body>
+    <ui:composition template="/admintemplate.xhtml">
+        <ui:define name="header">
+        </ui:define>
+
+        <ui:define name="leftmenu">hello
+        </ui:define>
+        <ui:define name="content">
+            
+            <div>
+                <h4 style="color: cadetblue"><b> Country </b></h4>
+            <ol>
+                <li>
+                    <p>Create Country :</p>
+                    <p:link value="Create" href="countryCreate.xhtml"></p:link>
+                </li> 
+               
+                <li>
+                    <p>All Countries :</p>
+                    <p:link value="List" href="countryList.xhtml"></p:link>
+                </li>
+            </ol>
+            </div>
+            
+            <div>
+                <h4 style="color: cadetblue"><b> Event</b></h4>
+            <ol>
+                <li>
+                    <p>Create Event :</p>
+                    <p:link value="Create" href="eventCreate.xhtml"></p:link>
+                </li> 
+                <li>
+                    <p>All Events :</p>
+                    <p:link value="List" href="eventList.xhtml"></p:link>
+                </li>
+            </ol>
+            </div>
+                
+            <div>
+                <h4 style="color: cadetblue"><b> Event Attendance</b></h4>
+            <ol>
+                <li>
+                    <p>Create Event Attendance:</p>
+                    <p:link value="Create" href="eventattendanceCreate.xhtml">Create Event Attendance</p:link>
+                </li> 
+                <li>
+                    <p>All Event Attandance:</p>
+                    <p:link value="List" href="eventattendanceList.xhtml"></p:link>
+                </li>
+            </ol>
+            </div>
+            
+            <div>
+                <h4 style="color: cadetblue"><b>Review</b></h4>
+            <ol>
+                <li>
+                    <p>Create Review :</p>
+                    <p:link value="Create" href="reviewCreate.xhtml"></p:link>
+                </li> 
+                <li>
+                    <p>All Reviews :</p>
+                    <p:link value="List" href="reviewList.xhtml"></p:link>
+                </li>
+            </ol>
+            </div>
+            
+            <div>
+                <h4 style="color: cadetblue"><b>State</b></h4>
+            <ol>
+                <li>
+                    <p>Create State :</p>
+                    <p:link value="Create" href="stateCreate.xhtml"></p:link>
+                </li> 
+                <li>
+                    <p>All States :</p>
+                    <p:link value="List" href="stateList.xhtml"></p:link>
+                </li>
+            </ol>
+            </div>
+            
+            <div>
+                <h4 style="color: cadetblue"><b>City</b></h4>
+            <ol>
+                <li>
+                    <p>Create City :</p>
+                    <p:link value="Create" href="cityCreate.xhtml"></p:link>
+                </li> 
+                <li>
+                    <p>All Cities :</p>
+                    <p:link value="List" href="cityList.xhtml"></p:link>
+                </li>
+            </ol>
+            </div>
+            
+            <div>
+                <h4 style="color: cadetblue"><b>Users</b></h4>
+            <ol>
+                <li>
+                    <p>Create User:</p>
+                    <p:link value="Create" href="usersCreate.xhtml"></p:link>
+                </li> 
+                <li>
+                    <p>All Users:</p>
+                    <p:link value="List" href="usersList.xhtml"></p:link>
+                </li>
+            </ol>
+            </div>
+            
+            <div>
+                <h4 style="color: cadetblue"><b>Venue</b></h4>
+            <ol>
+                <li>
+                    <p>Create Venue :</p>
+                    <p:link value="Create" href="venueCreate.xhtml"></p:link>
+                </li> 
+                <li>
+                    <p>All Venues :</p>
+                    <p:link value="List" href="venueList.xhtml"></p:link>
+                </li>
+            </ol>
+            </div>
+            
+            
+        </ui:define>
+
+    </ui:composition>
+
+</html>
+

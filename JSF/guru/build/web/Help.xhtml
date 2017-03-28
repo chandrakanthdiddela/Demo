@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+         <ui:composition template="/template2.xhtml">
+          
+        <ui:define name="title">Help  </ui:define>
+           <ui:define name="nav">  <ui:include src="nav1.xhtml"></ui:include> </ui:define>
+      <ui:define name="content"> 
+         <h:form>
+    <p:growl id="msgs" showDetail="true" />
+ 
+    <p:panel id="basic" header="Help "  style="margin-bottom:20px">
+        <h:panelGrid columns="2" cellpadding="10">
+            <img src="resources/image/help.jpg" alt="about us not found " height="150px" width="150px"/>
+           
+            <h:outputText
+                value="  Frequently Asked Questions:
+                How To Use the Map?
+                click on the criteris in the search and it will pop up 
+                How to post a review ?
+                go to the review tab in the main menu under it there is a post review sub menue simply fill the form and save it 
+           " />
+        </h:panelGrid>
+    </p:panel>
+         </h:form>
+          </ui:define>
+         </ui:composition>
+    </body>
+</html>

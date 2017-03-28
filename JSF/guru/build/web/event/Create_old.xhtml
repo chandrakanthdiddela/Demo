@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        
+            <h:form id="EventCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{eventController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateEventLabel_eventID}" for="eventID" />
+                        <p:inputText id="eventID" value="#{eventController.selected.eventID}" title="#{bundle.CreateEventTitle_eventID}" required="true" requiredMessage="#{bundle.CreateEventRequiredMessage_eventID}"/>
+                        <p:outputLabel value="#{bundle.CreateEventLabel_description}" for="description" />
+                        <p:inputText id="description" value="#{eventController.selected.description}" title="#{bundle.CreateEventTitle_description}" required="true" requiredMessage="#{bundle.CreateEventRequiredMessage_description}"/>
+                        <p:outputLabel value="#{bundle.CreateEventLabel_startDate}" for="startDate" />
+                        <p:calendar id="startDate" pattern="MM/dd/yyyy" value="#{eventController.selected.startDate}" title="#{bundle.EditEventTitle_startDate}" required="true" requiredMessage="#{bundle.EditEventRequiredMessage_startDate}" showOn="button"/>
+                        <p:outputLabel value="#{bundle.CreateEventLabel_endDate}" for="endDate" />
+                        <p:calendar id="endDate" pattern="MM/dd/yyyy" value="#{eventController.selected.endDate}" title="#{bundle.EditEventTitle_endDate}" required="true" requiredMessage="#{bundle.EditEventRequiredMessage_endDate}" showOn="button"/>
+                        <p:outputLabel value="#{bundle.CreateEventLabel_eventType}" for="eventType" />
+                        <p:inputText id="eventType" value="#{eventController.selected.eventType}" title="#{bundle.CreateEventTitle_eventType}" required="true" requiredMessage="#{bundle.CreateEventRequiredMessage_eventType}"/>
+                        <p:outputLabel value="#{bundle.CreateEventLabel_createdBy}" for="createdBy" />
+                        <p:selectOneMenu id="createdBy" value="#{eventController.selected.createdBy}" required="true" requiredMessage="#{bundle.EditEventRequiredMessage_createdBy}">
+                            <f:selectItems value="#{usersController.itemsAvailableSelectOne}"
+                                           var="createdByItem"
+                                           itemValue="#{createdByItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.CreateEventLabel_venue}" for="venue" />
+                        <p:selectOneMenu id="venue" value="#{eventController.selected.venue}" required="true" requiredMessage="#{bundle.EditEventRequiredMessage_venue}">
+                            <f:selectItems value="#{venueController.itemsAvailableSelectOne}"
+                                           var="venueItem"
+                                           itemValue="#{venueItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{eventController.create}" value="#{bundle.Save}"  oncomplete="handleSubmit(args,'EventCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="EventCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        
+
+    </ui:composition>
+</html>

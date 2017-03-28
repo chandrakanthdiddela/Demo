@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition template="listtemp.xhtml">
+
+        <ui:define name="title" >List Review</ui:define>
+       <ui:define name="nav">  <ui:include src="nav2.xhtml"></ui:include> </ui:define>
+        
+        <ui:define name="body">
+            <h:form id="ReviewListForm">
+                <p:panel header="#{bundle.ListReviewTitle}">
+                    <p:dataTable id="datalist" value="#{reviewController.items}" var="item"
+                                 selectionMode="single" selection="#{reviewController.selected}"
+                                 paginator="true"
+                                 rowKey="#{item.reviewid}"
+                                 rows="10"
+                                 rowsPerPageTemplate="10,20,30,40,50"
+                                 widgetVar="reviewTable"
+                                 filteredValue="#{dtFilterViewReview.filteredreviews}"
+                                 >
+                        <f:facet name="header">
+            <p:outputPanel>
+                <h:outputText value="Search all fields:" />
+                <p:inputText id="globalFilter" onkeyup="PF('reviewTable').filter()" style="width:150px" placeholder="Enter keyword"/>
+            </p:outputPanel>
+             </f:facet>
+                        <p:column filterBy="#{item.reviewid}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_reviewid}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.reviewid}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.description}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_description}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.description}"/>
+                        </p:column>
+                        <p:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_date}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.date}">
+                                <f:convertDateTime pattern="MM/dd/yyyy" />
+                            </h:outputText>
+                        </p:column>
+                        <p:column filterBy="#{item.rating}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_rating}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.rating}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.city.name}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_city}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.city.name}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.country.countryName}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_country}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.country.countryName}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.event}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_event}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.event}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.state.stateName}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_state}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.state.stateName}"/>
+                        </p:column>
+                        <p:column filterBy="#{item.user.userName}" filterMatchMode="contains">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListReviewTitle_user}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.user.userName}"/>
+                        </p:column>
+                                           </p:dataTable>
+                </p:panel>
+            </h:form>
+
+          
+        </ui:define>
+    </ui:composition>
+
+</html>

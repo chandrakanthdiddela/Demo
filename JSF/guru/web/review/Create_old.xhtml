@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ReviewCreateDlg" widgetVar="ReviewCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateReviewTitle}">
+            <h:form id="ReviewCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{reviewController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_reviewid}" for="reviewid" />
+                        <p:inputText id="reviewid" value="#{reviewController.selected.reviewid}" title="#{bundle.CreateReviewTitle_reviewid}" required="true" requiredMessage="#{bundle.CreateReviewRequiredMessage_reviewid}"/>
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_description}" for="description" />
+                        <p:inputText id="description" value="#{reviewController.selected.description}" title="#{bundle.CreateReviewTitle_description}" required="true" requiredMessage="#{bundle.CreateReviewRequiredMessage_description}"/>
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_date}" for="date" />
+                        <p:calendar id="date" pattern="MM/dd/yyyy" value="#{reviewController.selected.date}" title="#{bundle.EditReviewTitle_date}" required="true" requiredMessage="#{bundle.EditReviewRequiredMessage_date}" showOn="button"/>
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_rating}" for="rating" />
+                        <p:inputText id="rating" value="#{reviewController.selected.rating}" title="#{bundle.CreateReviewTitle_rating}" required="true" requiredMessage="#{bundle.CreateReviewRequiredMessage_rating}"/>
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_city}" for="city" />
+                        <p:selectOneMenu id="city" value="#{reviewController.selected.city}" required="true" requiredMessage="#{bundle.EditReviewRequiredMessage_city}">
+                            <f:selectItems value="#{cityController.itemsAvailableSelectOne}"
+                                           var="cityItem"
+                                           itemValue="#{cityItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_country}" for="country" />
+                        <p:selectOneMenu id="country" value="#{reviewController.selected.country}" required="true" requiredMessage="#{bundle.EditReviewRequiredMessage_country}">
+                            <f:selectItems value="#{countryController.itemsAvailableSelectOne}"
+                                           var="countryItem"
+                                           itemValue="#{countryItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_event}" for="event" />
+                        <p:selectOneMenu id="event" value="#{reviewController.selected.event}" required="true" requiredMessage="#{bundle.EditReviewRequiredMessage_event}">
+                            <f:selectItems value="#{eventController.itemsAvailableSelectOne}"
+                                           var="eventItem"
+                                           itemValue="#{eventItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_state}" for="state" />
+                        <p:selectOneMenu id="state" value="#{reviewController.selected.state}" required="true" requiredMessage="#{bundle.EditReviewRequiredMessage_state}">
+                            <f:selectItems value="#{stateController.itemsAvailableSelectOne}"
+                                           var="stateItem"
+                                           itemValue="#{stateItem}"/>
+                        </p:selectOneMenu>
+                        <p:outputLabel value="#{bundle.CreateReviewLabel_user}" for="user" />
+                        <p:selectOneMenu id="user" value="#{reviewController.selected.user}" required="true" requiredMessage="#{bundle.EditReviewRequiredMessage_user}">
+                            <f:selectItems value="#{usersController.itemsAvailableSelectOne}"
+                                           var="userItem"
+                                           itemValue="#{userItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{reviewController.create}" value="#{bundle.Save}" update="display,:ReviewListForm:datalist,:growl" oncomplete="handleSubmit(args,'ReviewCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="ReviewCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

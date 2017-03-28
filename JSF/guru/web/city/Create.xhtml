@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+      
+            <h:form id="CityCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{cityController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateCityLabel_cityID}" for="cityID" />
+                        <p:inputText id="cityID" value="#{cityController.selected.cityID}" title="#{bundle.CreateCityTitle_cityID}" required="true" requiredMessage="#{bundle.CreateCityRequiredMessage_cityID}"/>
+                        <p:outputLabel value="#{bundle.CreateCityLabel_latitude}" for="latitude" />
+                        <p:inputText id="latitude" value="#{cityController.selected.latitude}" title="#{bundle.CreateCityTitle_latitude}" required="true" requiredMessage="#{bundle.CreateCityRequiredMessage_latitude}"/>
+                        <p:outputLabel value="#{bundle.CreateCityLabel_longitude}" for="longitude" />
+                        <p:inputText id="longitude" value="#{cityController.selected.longitude}" title="#{bundle.CreateCityTitle_longitude}" required="true" requiredMessage="#{bundle.CreateCityRequiredMessage_longitude}"/>
+                        <p:outputLabel value="#{bundle.CreateCityLabel_name}" for="name" />
+                        <p:inputText id="name" value="#{cityController.selected.name}" title="#{bundle.CreateCityTitle_name}" required="true" requiredMessage="#{bundle.CreateCityRequiredMessage_name}"/>
+                        <p:outputLabel value="#{bundle.CreateCityLabel_countryName}" for="countryName" />
+                        <p:inputText id="countryName" value="#{cityController.selected.countryName}" title="#{bundle.CreateCityTitle_countryName}" required="true" requiredMessage="#{bundle.CreateCityRequiredMessage_countryName}"/>
+                        <p:outputLabel value="#{bundle.CreateCityLabel_stateName}" for="stateName" />
+                        <p:selectOneMenu id="stateName" value="#{cityController.selected.stateName}" required="true" requiredMessage="#{bundle.EditCityRequiredMessage_stateName}">
+                            <f:selectItems value="#{stateController.itemsAvailableSelectOne}"
+                                           var="stateNameItem"
+                                           itemValue="#{stateNameItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{cityController.create}" value="#{bundle.Save}" update="display,:CityListForm:datalist,:growl" oncomplete="handleSubmit(args,'CityCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="CityCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+       
+
+    </ui:composition>
+</html>

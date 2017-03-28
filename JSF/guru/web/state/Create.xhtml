@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="StateCreateDlg" widgetVar="StateCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateStateTitle}">
+            <h:form id="StateCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{stateController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateStateLabel_stateID}" for="stateID" />
+                        <p:inputText id="stateID" value="#{stateController.selected.stateID}" title="#{bundle.CreateStateTitle_stateID}" required="true" requiredMessage="#{bundle.CreateStateRequiredMessage_stateID}"/>
+                        <p:outputLabel value="#{bundle.CreateStateLabel_stateName}" for="stateName" />
+                        <p:inputText id="stateName" value="#{stateController.selected.stateName}" title="#{bundle.CreateStateTitle_stateName}" required="true" requiredMessage="#{bundle.CreateStateRequiredMessage_stateName}"/>
+                        <p:outputLabel value="#{bundle.CreateStateLabel_countryID}" for="countryID" />
+                        <p:selectOneMenu id="countryID" value="#{stateController.selected.countryID}" required="true" requiredMessage="#{bundle.EditStateRequiredMessage_countryID}">
+                            <f:selectItems value="#{countryController.itemsAvailableSelectOne}"
+                                           var="countryIDItem"
+                                           itemValue="#{countryIDItem}"/>
+                        </p:selectOneMenu>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{stateController.create}" value="#{bundle.Save}" update="display,:StateListForm:datalist,:growl" oncomplete="handleSubmit(args,'StateCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="StateCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

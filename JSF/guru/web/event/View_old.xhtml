@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="EventViewDlg" widgetVar="EventViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewEventTitle}">
+            <h:form id="EventViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{eventController.selected != null}">
+                        <h:outputText value="#{bundle.ViewEventLabel_eventID}"/>
+                        <h:outputText value="#{eventController.selected.eventID}" title="#{bundle.ViewEventTitle_eventID}"/>
+                        <h:outputText value="#{bundle.ViewEventLabel_description}"/>
+                        <h:outputText value="#{eventController.selected.description}" title="#{bundle.ViewEventTitle_description}"/>
+                        <h:outputText value="#{bundle.ViewEventLabel_startDate}"/>
+                        <h:outputText value="#{eventController.selected.startDate}" title="#{bundle.ViewEventTitle_startDate}">
+                            <f:convertDateTime pattern="MM/dd/yyyy" />
+                        </h:outputText>
+                        <h:outputText value="#{bundle.ViewEventLabel_endDate}"/>
+                        <h:outputText value="#{eventController.selected.endDate}" title="#{bundle.ViewEventTitle_endDate}">
+                            <f:convertDateTime pattern="MM/dd/yyyy" />
+                        </h:outputText>
+                        <h:outputText value="#{bundle.ViewEventLabel_eventType}"/>
+                        <h:outputText value="#{eventController.selected.eventType}" title="#{bundle.ViewEventTitle_eventType}"/>
+                        <h:outputText value="#{bundle.ViewEventLabel_createdBy}"/>
+                        <h:outputText value="#{eventController.selected.createdBy}" title="#{bundle.ViewEventTitle_createdBy}"/>
+                        <h:outputText value="#{bundle.ViewEventLabel_venue}"/>
+                        <h:outputText value="#{eventController.selected.venue}" title="#{bundle.ViewEventTitle_venue}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="EventViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

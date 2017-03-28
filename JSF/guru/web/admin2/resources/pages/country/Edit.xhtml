@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="CountryEditDlg" widgetVar="CountryEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditCountryTitle}">
+            <h:form id="CountryEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{countryController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditCountryLabel_countryID}" for="countryID" />
+                        <p:inputText id="countryID" value="#{countryController.selected.countryID}" title="#{bundle.EditCountryTitle_countryID}" required="true" requiredMessage="#{bundle.EditCountryRequiredMessage_countryID}"/>
+                        <p:outputLabel value="#{bundle.EditCountryLabel_countryName}" for="countryName" />
+                        <p:inputText id="countryName" value="#{countryController.selected.countryName}" title="#{bundle.EditCountryTitle_countryName}" required="true" requiredMessage="#{bundle.EditCountryRequiredMessage_countryName}"/>
+                        <p:outputLabel value="#{bundle.EditCountryLabel_countrycode}" for="countrycode" />
+                        <p:inputText id="countrycode" value="#{countryController.selected.countrycode}" title="#{bundle.EditCountryTitle_countrycode}" required="true" requiredMessage="#{bundle.EditCountryRequiredMessage_countrycode}"/>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{countryController.update}" value="#{bundle.Save}" update="display,:CountryListForm:datalist,:growl" oncomplete="handleSubmit(args, 'CountryEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="CountryEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

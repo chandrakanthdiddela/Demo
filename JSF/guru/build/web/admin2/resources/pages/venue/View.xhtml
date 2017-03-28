@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="VenueViewDlg" widgetVar="VenueViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewVenueTitle}">
+            <h:form id="VenueViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{venueController.selected != null}">
+                        <h:outputText value="#{bundle.ViewVenueLabel_venueID}"/>
+                        <h:outputText value="#{venueController.selected.venueID}" title="#{bundle.ViewVenueTitle_venueID}"/>
+                        <h:outputText value="#{bundle.ViewVenueLabel_name}"/>
+                        <h:outputText value="#{venueController.selected.name}" title="#{bundle.ViewVenueTitle_name}"/>
+                        <h:outputText value="#{bundle.ViewVenueLabel_phoneNumber}"/>
+                        <h:outputText value="#{venueController.selected.phoneNumber}" title="#{bundle.ViewVenueTitle_phoneNumber}"/>
+                        <h:outputText value="#{bundle.ViewVenueLabel_streetAddress}"/>
+                        <h:outputText value="#{venueController.selected.streetAddress}" title="#{bundle.ViewVenueTitle_streetAddress}"/>
+                        <h:outputText value="#{bundle.ViewVenueLabel_city}"/>
+                        <h:outputText value="#{venueController.selected.city}" title="#{bundle.ViewVenueTitle_city}"/>
+                        <h:outputText value="#{bundle.ViewVenueLabel_country}"/>
+                        <h:outputText value="#{venueController.selected.country}" title="#{bundle.ViewVenueTitle_country}"/>
+                        <h:outputText value="#{bundle.ViewVenueLabel_state}"/>
+                        <h:outputText value="#{venueController.selected.state}" title="#{bundle.ViewVenueTitle_state}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="VenueViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

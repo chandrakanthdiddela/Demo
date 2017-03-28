@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+         <ui:composition template="/template2.xhtml">
+          
+        <ui:define name="title">About Us  </ui:define>
+           <ui:define name="nav">  <ui:include src="nav1.xhtml"></ui:include> </ui:define>
+      <ui:define name="content"> 
+          <h:form>
+    <p:growl id="msgs" showDetail="true" />
+ 
+    <p:panel id="basic" header="Purpose Of Show Time Guru"  style="margin-bottom:20px">
+        <h:panelGrid columns="2" cellpadding="10">
+            <img src="resources/image/aboutus.jpg" alt="about us not found " height="150px" width="150px"/>
+            <h:outputText
+                value="Show Time Guru Application is the application where users can search for events,create events and even see existing ones.
+          The user can also add venues and view the existing venues. 
+          After going to a specific event the user can also post their review as well as see other users' review.
+          
+           " />
+        </h:panelGrid>
+    </p:panel>
+    
+    <p:panel id="future" header="Future Development "  style="margin-bottom:20px">
+        <h:panelGrid columns="2" cellpadding="10">
+            <img src="resources/image/future.jpg" alt="about us not found " height="150px" width="150px"/>
+            
+            <h:outputText
+                value="In the Future the Show Guru Application will also have a phone Application 
+                It Will Also help users show what they attended or want to attend
+           " />
+        </h:panelGrid>
+    </p:panel>
+          </h:form>
+          </ui:define>
+         </ui:composition>
+    </body>
+</html>
